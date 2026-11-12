@@ -225,7 +225,7 @@
 ||*.app-measurement.com^
 ||app-analytics-services.com^
 ||app-analytics-services-att.com^
-||firebaselogging-pa.googleapis.com^
+# ||firebaselogging-pa.googleapis.com^
 
 # ====================== Google AdMob ======================
 ||doubleclick.net^
