@@ -3,6 +3,123 @@
 
 ### Правила dnsrewrite ###
 
+### Тестовые правила ###
+# ||ext-strm-*-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-ruvog*ert-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-ruekt*mskix-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-runoz*rtk-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||strm-mar-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||strm-std-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||strm-spbmiran-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-rukrd*mgfn-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-ruvog*ert-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||ext-strm-rumsk*bln-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+
+||appsflyer.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||googletagmanager.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||yabs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||yandexadexchange.net^$dnsrewrite=NOERROR;A;0.0.0.0
+||ad.adriver.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||dsp.adfox.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||partner.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||rs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||doubleclick.net^$dnsrewrite=NOERROR;A;0.0.0.0 # Google Ads
+||googlesyndication.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Google Ads
+||pagead2.googlesyndication.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Google Ads
+||g.doubleclick.net^$dnsrewrite=NOERROR;A;0.0.0.0 # Google Ads
+||google-analytics.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Аналитика + Реклама
+||adsrvr.org^$dnsrewrite=NOERROR;A;0.0.0.0 # Taboola, Outbrain
+||taboola.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Native ads
+||outbrain.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Native ads
+||smartclip.net^$dnsrewrite=NOERROR;A;0.0.0.0 # Крупная сеть
+||adform.net^$dnsrewrite=NOERROR;A;0.0.0.0 # Крупная сеть
+||yandex.ru/rs/*$dnsrewrite=NOERROR;A;0.0.0.0 # Яндекс Директ
+||yandex.ru/yabs/*$dnsrewrite=NOERROR;A;0.0.0.0 # Яндекс Директ
+||yastatic.net/dfp/$dnsrewrite=NOERROR;A;0.0.0.0
+||yastatic.net/pcode/vast/$dnsrewrite=NOERROR;A;0.0.0.0
+||an.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0 # Яндекс Директ
+||awaps.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0 # Яндекс Директ
+||adfox.net^$dnsrewrite=NOERROR;A;0.0.0.0 # VK / Mail.ru Group
+||mytarget.mail.ru^$dnsrewrite=NOERROR;A;0.0.0.0 # MyTarget
+||apmtrack.ru^$dnsrewrite=OK;A;0.0.0.0 # Рамблер
+||adobe.io^$dnsrewrite=NOERROR;A;0.0.0.0 # Adobe Analytics
+||atdmt.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Microsoft Advertising
+||scorecardresearch.com^$dnsrewrite=NOERROR;A;0.0.0.0 # ComScore
+||quantserve.com^$dnsrewrite=NOERROR;A;0.0.0.0 # QS
+||teads.tv^$dnsrewrite=NOERROR;A;0.0.0.0 # Видеореклама
+||criteo.com^$dnsrewrite=NOERROR;A;0.0.0.0 # Criteo
+||openx.net^$dnsrewrite=NOERROR;A;0.0.0.0 # OpenX
+||cu.dzen.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||mradx.net^$dnsrewrite=NOERROR;A;0.0.0.0
+||*.ms.ok.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||*.mscu.ok.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+### Тест ###
+||rv.mail.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||scbh.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+||gateway-b.offerwall.unity3d.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||adjust.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||cdn.sales-ninja.me^$dnsrewrite=NOERROR;A;0.0.0.0
+||api.sales-ninja.me^$dnsrewrite=NOERROR;A;0.0.0.0
+||prod-lt-playstoregatewayadapter-pa.googleapis.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||playstoregatewayadapter-pa.googleapis.com^$dnsrewrite=NOERROR;A;0.0.0.0
+
+||cdn.fontmeyou.com^$dnsrewrite=NOERROR;A;0.0.0.0||ssrw.metd*gim.com^$dnsrewrite=NOERROR;A;0.0.0.0
+||clck.yandex.ru^$important # (Внимание: это может сломать поиск. Если поиск Яндекса перестанет работать, удалите эту строку)
+||clck.yandex.net^$important # (Внимание: это может сломать поиск. Если поиск Яндекса перестанет работать, удалите эту строку)
+
+||unpkg.com^$important
+||yabs.yandex.ru^$important
+||websitealive1.com^$important
+||bdstatic.com^$important
+||unbounce.com^$important
+||pch.com^$important
+||showmeinn.com^$important
+||websitealive0.com^$important
+||kijiji.ca^$important
+||yoc.com^$important
+||switchconcepts.co.uk^$important
+||365media.com^$important
+||konduto.com^$important
+||impact.com^$important
+||zenaps.com^$important
+||itch.io^$important
+||ad2onegroup.com^$important
+||livechatinc.com^$important
+||sojern.com^$important
+||plus.google.com^$important
+||js-kit.com^$important
+||analytics.amplitude.com^$important
+||fastpool.xyz^$important
+||st-widget.s3.amazonaws.com^$important
+||redditmedia.com^$important
+||f.vimeocdn.com^$important
+||cdn.jwplayer.com^$important
+||api.privacy-center.org^$important
+||consent-pref.trustarc.com^$important
+||cdn.onetrust.com^$important
+||wrapper-api.sp-prod.net^$important
+||clientservices.googleapis.com^$important
+||clientstream.launchdarkly.com^$important
+||privacyportal.onetrust.com^$important
+||click.mailchimp.com^$important
+||amoeba.web.roku.com^$important
+||ngfts.lge.com^$important
+||mandrillapp.com^$important
+||clicks.aweber.com^$important
+||click.mailerlite.com^$important
+||pixel.mailchimp.com^$important
+||optanon.blob.core.windows.net^$important
+||app.convertkit.com^$important
+||open.convertkit.com^$important
+||mailchimp.com^$important
+||app.launchdarkly.com^$important
+||stream.launchdarkly.com^$important
+||api.flagsmith.com^$important
+||cdn-eu.configcat.com^$important
+||edge.api.flagsmith.com^$important
+||cdn.configcat.com^$important
+||apple.com^$important
+||careers.hotjar.com^$important
 
 ### Правил разблокировки ###
 @@||4pda.to^$important
