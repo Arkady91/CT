@@ -1,0 +1,497 @@
+! Title: Blacklist
+! Description: Мой список блокировки
+
+### Правила dnsrewrite ###
+
+
+### Правил разблокировки ###
+@@||4pda.to^$important
+@@||seasonvar.ru^$important
+@@||s.youtube.com^
+@@||2ip.ru^
+@@||2ip.io^
+@@||l*.ivi.ru^
+@@||uptimerobot.com^
+@@||api.myip.com^
+@@||ifconfig.co^
+@@||update.9mod.com^
+@@||st.max.ru^
+@@||downloads.dell.com^
+@@||rocket.ivi.ru^$important
+@@||grs.hihonorcloud.com^$important
+@@||incoming.telemetry.mozilla.org^$important
+@@||redirector.googlevideo.com^$important
+@@||downloads.upd.kaspersky.com^$important
+###
+@@||vk.cc^$important
+@@||vkontakte.ru^$important
+@@||open.zvuk.com^$important
+@@||cas-bridge.xethub.hf.co^$important
+@@||*geo.kaspersky-labs.com^$important
+@@||vm.play2go.cloud^$important
+@@||voctv.page.link^$important
+@@||stat*.okko.tv^
+@@||armbian.info.gf^$important
+@@||myadg.baselinux.net^$important
+@@||tc.mobile.yandex.net^$important
+@@||clck.ru^$important
+@@||registrator.mobile.yandex.net^$important
+# Новые
+@@||egw.ads-platform.plet.yandex.ru^$important
+@@||myadg.baselinux.net^$important
+@@||antibot.wildberries.ru^$important
+@@||7a891557-ad63-4e02-9c57-292413513b77.okkoinfo.ru^$important
+@@||*.dt.hihonorcloud.com^$important
+@@||api.ipify.org^$important
+@@||ip-api.com^$important
+@@||samokat.go.link^$important
+@@||rezvorck.github.io^$important
+@@||tiktokmod.pro^$important
+@@||whoami.akamai.net^$important
+# @@||tiktokv.com^$important
+@@||clc.to^
+@@||api.github.com^
+@@||goya.rutube.ru^$important
+@@||whoer.net^$important
+@@||email-images.mindbox.ru^$important
+@@||z15.neocities.org^$important
+@@||us.aws.cdn.hf.co^$important
+@@||free.geonix.com^$important
+@@||virustotal.com^$important
+@@||pp.userapi.com^$important
+@@||obfusgated.com^$important
+@@||safing.io^$important
+@@||my.mail.ru^$important
+@@||pay.go.link^$important
+@@||dns.mullvad.net^$important
+@@||cloudflare-dns.com^$important
+@@||www.duckdns.org^$important
+@@||mloads.com^$important
+@@||ani*.top^$important
+@@||*.yandex-api.store^$important
+@@||stee*.hadsvpn.com^$important
+@@||disk.360.yandex.ru^$important
+@@||savesafe.top^$important
+@@||gw200.itlearn.top^$important
+@@||ru.starkclaude.top^$important
+@@||dk2.sky-vault.top^$important
+@@||du-rov.secureservice.top^$important
+@@||*.dedushka.top^$important
+@@||*.flowersgood.top^$important
+@@||*.sky-vault.top^$important
+@@||check.happ.su^$important
+@@||dns.google^$important
+@@||dns.quad9.net^$important
+
+# ====================== AppMetrica (Яндекс) ======================
+||analytics.mobile.yandex.net^
+||appmetrica.yandex.com^
+||banners-slb.mobile.yandex.net^
+||banners.mobile.yandex.net^
+||mc.yandex.ru^
+||report.appmetrica.yandex.net^
+||startup.mobile.yandex.net^
+||redirect.appmetrica.yandex.com^
+||impression.appmetrica.yandex.com^
+||tracking.appmetrica.yandex.net^
+||tracking.reserve.appmetrica.yandex.net^
+
+# ====================== Google Crashlytics ======================
+||crashlytics.com^
+||*.crashlytics.com^
+||crashlyticsreports-pa.googleapis.com^
+||firebasecrashlyticssymbols.googleapis.com^
+||firebase-settings.crashlytics.com^
+
+# ====================== Google Firebase Analytics ======================
+||app-measurement.com^
+||*.app-measurement.com^
+||app-analytics-services.com^
+||app-analytics-services-att.com^
+||firebaselogging-pa.googleapis.com^
+
+# ====================== Google AdMob ======================
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adservice.google.*^
+||pagead2.googlesyndication.com^
+||googleads.g.doubleclick.net^
+||2mdn.net^
+||mobileads.google.com^
+
+# ====================== Google Analytics / Tag Manager ======================
+||google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+
+# ====================== AppLovin ======================
+||applovin.com^
+||applvn.com^
+||*.applovin.com^
+
+# ====================== ironSource ======================
+||ironsrc.com^
+||is.com^
+||supersonicads.com^
+||*.ironsrc.com^
+
+# ====================== Fyber ======================
+||fyber.com^
+||*.fyber.com^
+||inner-active.mobi^
+
+# ====================== AppsFlyer ======================
+||appsflyer.com^
+||*.appsflyer.com^
+
+# ====================== Adjust ======================
+||adjust.com^
+||adj.st^
+||go.link^
+
+# ====================== myTracker ======================
+||mytracker.ru^
+||tracker.my.com^
+
+# ====================== myTarget ======================
+||mytarget.com^
+||ad.mail.ru^
+||top-fwz1.mail.ru^
+
+# ====================== Yandex Ad ======================
+||ads.yandex.ru^
+||an.yandex.ru^
+||mobile.yandex.net^
+||yandexadexchange.net^
+
+# ====================== Huawei HMS Core ======================
+||hms.huawei.com^
+||hicloud.com^
+||dbankcloud.com^
+
+# ====================== Sentry (Осторожно, можно сломать отладку приложений) ======================
+||sentry.io^
+||*.sentry.io^
+
+# ====================== Facebook / Meta ======================
+||graph.facebook.com^
+||connect.facebook.net^
+||facebook.net^
+||an.facebook.com^
+
+# ====================== Amazon Advertisement (Безопасная часть) ======================
+||amazon-adsystem.com^
+||amazon-adsystem.com.cn^
+||mads.amazon.com^
+||aax.amazon-adsystem.com^
+||amazonads.com^
+||fls-na.amazon.com^
+||device-metrics-us.amazon.com^
+
+# ====================== Mintegral ======================
+||mintegral.com^
+||mintegral.net^
+||*.mintegral.com^
+
+# ====================== Pangle ======================
+||pangleglobal.com^
+||pangle.io^
+||*.pangleglobal.com^
+
+# ====================== Unity Ads ======================
+||unityads.unity3d.com^
+||*.unityads.unity3d.com^
+||ads.unity3d.com^
+
+# ====================== Vungle ======================
+||vungle.com^
+||*.vungle.com^
+
+# ====================== Chartboost ======================
+||chartboost.com^
+||*.chartboost.com^
+
+# ====================== BidMachine ======================
+||bidmachine.io^
+
+# ====================== Appodeal ======================
+||appodeal.com^
+||appodealx.com^
+
+# ====================== InMobi ======================
+||inmobi.com^
+||*.inmobi.com^
+
+# ====================== Amplitude ======================
+||amplitude.com^
+||*.amplitude.com^
+
+# ====================== Segment ======================
+||segment.com^
+||segment.io^
+||*.segment.com^
+||*.segment.io^
+
+# ====================== ACRA ======================
+||acra.io^
+||*.acra.io^
+
+# ====================== Mozilla Telemetry ======================
+||telemetry.mozilla.org^
+||*.telemetry.mozilla.org^
+||incoming.telemetry.mozilla.org^
+
+# ====================== OpenTelemetry ======================
+||opentelemetry.io^
+
+# ====================== IAB Open Measurement ======================
+||omsdk.com^
+
+# ====================== VKontakte SDK ======================
+||vk.com^$domain=~vk.com|~vk.ru
+# ||api.vk.com^
+
+# ====================== Прочие старые ======================
+||hyprmx.com^
+||smaato.com^
+||smaato.net^
+||tapjoy.com^
+||tapjoyads.com^
+||superawesome.com^
+||pubnative.net^
+||ogury.com^
+||maio.jp^
+||altbeacon.org^
+
+# ====================== НОВЫЕ ДОПОЛНЕНИЯ (Criteo, Taboola, Outbrain и др.) ======================
+# --- Criteo ---
+||criteo.com^
+||criteo.net^
+||*.criteo.com^
+||static.criteo.net^
+||cas.criteo.com^
+||sslwidget.criteo.com^
+||dis.criteo.com^
+||rtb.criteo.com^
+||gum.criteo.com^
+
+# --- Taboola ---
+||taboola.com^
+||taboola.net^
+||*.taboola.com^
+||cdn.taboola.com^
+||trc.taboola.com^
+||api.taboola.com^
+||sync.taboola.com^
+||vid.taboola.com^
+
+# --- Outbrain ---
+||outbrain.com^
+||*.outbrain.com^
+||odb.outbrain.com^
+||recommend.outbrain.com^
+||amplify.outbrain.com^
+||widgets.outbrain.com^
+||track.outbrain.com^
+||z.brain.com^
+||outbrainimg.com^
+
+# --- ScorecardResearch / comScore ---
+||scorecardresearch.com^
+||sb.scorecardresearch.com^
+||b.scorecardresearch.com^
+||c.scorecardresearch.com^
+||pixel.adsafeprotected.com^
+
+# --- New Relic (Мониторинг) ---
+||nr-data.net^
+||*.nr-data.net^
+||newrelic.com^
+||bam.nr-data.net^
+||collector.newrelic.com^
+||mobile-collector.newrelic.com^
+
+# --- Microsoft / Bing (БЕЗОПАСНАЯ ЧАСТЬ) ---
+||clarity.ms^
+||*.clarity.ms^
+||bat.bing.com^
+||bing.com^$domain=~bing.com|~microsoft.com|~windows.com
+||c.bing.com^
+||msn.com^$domain=~msn.com|~microsoft.com
+||msads.net^
+||*.msads.net^
+||nexus.officeapps.live.com^
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||settings.data.microsoft.com^
+||watson.telemetry.microsoft.com^
+
+# --- The Trade Desk ---
+||adsrvr.org^
+||*.adsrvr.org^
+||match.adsrvr.org^
+||secure.adnxs.com^
+||ib.adnxs.com^
+||adnxs.com^
+
+# --- OpenX / Rubicon / PubMatic ---
+||openx.net^
+||*.openx.net^
+||rubiconproject.com^
+||*.rubiconproject.com^
+||pubmatic.com^
+||*.pubmatic.com^
+||p.rfihub.com^
+||rfihub.com^
+
+# --- Smart / AdRiver (Российские сети) ---
+||smartadserver.com^
+||*.smartadserver.com^
+||adriver.ru^
+||adriver.media^
+||content.adriver.ru^
+||adfox.ru^
+
+!Test NEW
+||monetoad.com^$dnsrewrite=ad-block.dns.adguard.com
+||yast.rutube.ru^$important
+||ssp.rutube.ru^$important
+
+# Spotify  
+94.131.119.85 api-partner.spotify.com  
+94.131.119.85 api.spotify.com  
+94.131.119.85 xpui.app.spotify.com  
+94.131.119.85 appresolve.spotify.com  
+94.131.119.85 gew1-spclient.spotify.com  
+94.131.119.85 login5.spotify.com  
+94.131.119.85 spclient.wg.spotify.com  
+94.131.119.85 www.spotify.com  
+94.131.119.85 accounts.spotify.com  
+94.131.119.85 aet.spotify.com
+
+#Заблокировано
+||getshop.tv^$dnstype=~A|~CNAME
+||analytics.pointdrive.linkedin.com^$important
+||adtago.s3.amazonaws.com^$important
+||analyticsengine.s3.amazonaws.com^$important
+||analytics.google.com^$important
+||an.facebook.com^$important
+||analytics.pinterest.com^$important
+||trk.pinterest.com^$important
+||analytics.tiktok.com^$important
+||ads-api.twitter.com^$important
+||iadsdk.apple.com^$important
+||ads-api.tiktok.com^$important
+||analytics-sg.tiktok.com^$important
+||ads-sg.tiktok.com^$important
+||pixel.facebook.com^$important
+||ads.tiktok.com^$important
+||business-api.tiktok.com^$important
+||stats.wp.com^$important
+||ads.linkedin.com^$important
+||data.mistat.india.xiaomi.com^$important
+||mouseflow.com^$important
+||adservice.google.com.*^$important
+||adfox.yandex.ru^$important
+||extmaps-api.yandex.net^$important
+||mediahils.ru^$important
+||direct.yandex.ru^$important
+||adstream.ru^$important
+||nmetrics.samsung.com^$important
+||metrics.mzstatic.com^$important
+||ad.samsungadhub.com^$important
+||c.amazon-adsystem.com^$important
+||cdn.ziffstatic.com^$important
+||adtidy.net^$client='Ugoos X4Q'
+||graph.facebook.com^$important
+||sentry.ozon.ru^$important
+||ads.vk.com^$important
+||mrqz.me^$important
+||api.bugsnag.com^$important
+||app.bugsnag.com^$important
+||sessions.bugsnag.com^$important
+||notify.bugsnag.com^$important
+||ads.yahoo.com^$important
+||ads.yap.yahoo.com^$important
+||browser.sentry-cdn.com^$important
+||app.getsentry.com^$important
+||ads-dev.pinterest.com^$important
+||securemetrics.apple.com^$important
+||app.chat.xiaomi.net^$important
+||metrics-dra.dt.hicloud.com^$important
+||analytics.samsungknox.com^$important
+||samsungadhub.com^$important
+||yandex.ru/an/count*$important
+||affiliationjs.s3.amazonaws.com^$important
+||ads.pinterest.com^
+||widgets.pinterest.com^
+||ads.*^$important$important
+||*.ads^$important
+||ads-dev.*^
+||ads.reddit.com^$important
+||advertising.twitter.com^$important
+||app.adjust.com^$important
+||sikelocci.com^$important
+||ad.doubleclick.net^$important
+||ad.*^$important
+||*.ad^$important
+||saap.zzprotect.com^
+||agalf.zzprotect.com^
+||agis.zzprotect.com^
+||api.divpro.yandex.ru^
+||app-measurement.com^$important
+||gems-statistics.g.tapclap.com^$client='Bluestacks'
+!185.246.223.127 4pda.to
+||media-adv.market.yandex.ru^$important
+||sdk-api.apptracer.ru^$important
+||redirector.googlevideo.com^$important
+||bnc.lt^$important
+||greatis.com^$important
+||cdn.privacy-mgmt.com^$important
+||consent.trustarc.com^$important
+||ssl.p.jwpcdn.com^$important
+||dai.google.com^$important
+!!!!! NEW
+||stats.g.doubleclick.net^$important
+||ad.doubleclick.net^$important
+||static.doubleclick.net^$important
+||m.doubleclick.net^$important
+||mediavisor.doubleclick.net^$important
+||app.appsflyer.com^$important
+||2giga.link^$important
+||vk.com/rtrg^$important
+||ads.vk.com^$important
+||app.usercentrics.eu^$important
+||sdk.privacy-center.org^$important
+||cookiebot.com^$important
+||consentcdn.cookiebot.com^$important
+||shareasale-analytics.com^$important
+||widget.intercom.io^$important
+# Новые
+||ksn-stat-geo.kaspersky-labs.com^$important
+||akashi.vk-portal.net^$important
+||vpnv.shop^$important
+||*.vpnv.shop^$important
+||newt.ns.cloudflare.com^$important
+||meilani.ns.cloudflare.com^$important
+||apir*.mzona.net^$important
+||*.interkh.com^
+||api*.insertunit.ws^$important
+# Тест #
+||signal-yod.teleport.media^
+||vtrifa-*.sync.sspnet.tech^
+||app.adjust.com^$important
+||r.*.online^$important
+||a.*.online^$important
+||g.*.online^$important
+
+||it.com^$important
+||hely.tech^$important
+||topnotchs.site^$important
+||affiliations.tech^$important
+||api.fanzz.tech^$important
+||res.xmoky.tech^$important
+||liketech.site^$important
+||bigo.*^$important
+# ||egress.yandex.net^$important
