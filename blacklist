@@ -1,9 +1,8 @@
 ! Title: Blacklist
 ! Description: Мой список блокировки
 
-### Правила dnsrewrite ###
-
 ### Тестовые правила ###
+# @@||tiktokv.com^$important
 # ||ext-strm-*-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
 # ||ext-strm-ruvog*ert-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
 # ||ext-strm-ruekt*mskix-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
@@ -14,10 +13,14 @@
 # ||ext-strm-rukrd*mgfn-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
 # ||ext-strm-ruvog*ert-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
 # ||ext-strm-rumsk*bln-*.strm.yandex.net^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||yabs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||egress.yandex.net^$important
+# ||api.vk.com^
+# ||firebaselogging-pa.googleapis.com^
+
 
 ||appsflyer.com^$dnsrewrite=NOERROR;A;0.0.0.0
 ||googletagmanager.com^$dnsrewrite=NOERROR;A;0.0.0.0
-# ||yabs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
 ||yandexadexchange.net^$dnsrewrite=NOERROR;A;0.0.0.0
 ||ad.adriver.ru^$dnsrewrite=NOERROR;A;0.0.0.0
 ||dsp.adfox.ru^$dnsrewrite=NOERROR;A;0.0.0.0
@@ -68,7 +71,6 @@
 ||clck.yandex.net^$important # (Внимание: это может сломать поиск. Если поиск Яндекса перестанет работать, удалите эту строку)
 
 ||unpkg.com^$important
-# ||yabs.yandex.ru^$important
 ||websitealive1.com^$important
 ||bdstatic.com^$important
 ||unbounce.com^$important
@@ -165,7 +167,6 @@
 @@||rezvorck.github.io^$important
 @@||tiktokmod.pro^$important
 @@||whoami.akamai.net^$important
-# @@||tiktokv.com^$important
 @@||clc.to^
 @@||api.github.com^
 @@||goya.rutube.ru^$important
@@ -225,7 +226,6 @@
 ||*.app-measurement.com^
 ||app-analytics-services.com^
 ||app-analytics-services-att.com^
-# ||firebaselogging-pa.googleapis.com^
 
 # ====================== Google AdMob ======================
 ||doubleclick.net^
@@ -367,7 +367,6 @@
 
 # ====================== VKontakte SDK ======================
 ||vk.com^$domain=~vk.com|~vk.ru
-# ||api.vk.com^
 
 # ====================== Прочие старые ======================
 ||hyprmx.com^
@@ -611,4 +610,3 @@
 ||res.xmoky.tech^$important
 ||liketech.site^$important
 ||bigo.*^$important
-# ||egress.yandex.net^$important
