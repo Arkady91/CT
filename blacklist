@@ -68,7 +68,7 @@
 ||clck.yandex.net^$important # (Внимание: это может сломать поиск. Если поиск Яндекса перестанет работать, удалите эту строку)
 
 ||unpkg.com^$important
-||yabs.yandex.ru^$important
+# ||yabs.yandex.ru^$important
 ||websitealive1.com^$important
 ||bdstatic.com^$important
 ||unbounce.com^$important
