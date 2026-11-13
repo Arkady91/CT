@@ -17,7 +17,7 @@
 
 ||appsflyer.com^$dnsrewrite=NOERROR;A;0.0.0.0
 ||googletagmanager.com^$dnsrewrite=NOERROR;A;0.0.0.0
-||yabs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+# ||yabs.yandex.ru^$dnsrewrite=NOERROR;A;0.0.0.0
 ||yandexadexchange.net^$dnsrewrite=NOERROR;A;0.0.0.0
 ||ad.adriver.ru^$dnsrewrite=NOERROR;A;0.0.0.0
 ||dsp.adfox.ru^$dnsrewrite=NOERROR;A;0.0.0.0
