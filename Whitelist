@@ -1,0 +1,11 @@
+! Title: Whitelist
+! Description: Мой белый список
+
+# Правила Яндекс
+@@||strm-m9-*.strm.yandex.net^$important
+@@||myadg.ru^$important
+@@||nlgg.duckdns.org^$important
+@@||madg.duckdns.org^$important
+@@||dnsapi.home.kg^$important
+@@||xui.home.kg^$important
+@@||searxng.home.kg^$important
