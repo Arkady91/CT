@@ -18,6 +18,34 @@
 # ||api.vk.com^
 # ||firebaselogging-pa.googleapis.com^
 
+### Тест ###
+# @@||*.tdum.alibaba.com^
+@@||acs.m.taobao.com^
+@@||accscdn.m.taobao.com^
+@@||hy2-*-*.aloranode.top^$important
+||strm.yandex.ru^$client='Bluestacks BMAX'
+||sdk.mail.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||rok.mail.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+||api.inappstory.ru^$dnsrewrite=NOERROR;A;0.0.0.0
+### CNAME ###
+||edadeal.ru^$dnstype=~A|~CNAME
+||*.edadeal.ru^$dnstype=~A|~CNAME
+||strm.yandex.ru^$dnstype=~A|~CNAME
+||strm.yandex.net^$dnstype=~A|~CNAME
+||strm-m9-*.strm.yandex.net^$dnstype=~A|~CNAME
+# ||yandex.net^$dnstype=~A|~CNAME
+# ||yandex.ru^$dnstype=~A|~CNAME
+||favicon.yandex.net^$dnstype=~A|~CNAME
+||trigger-proxy.edadeal.ru^$dnstype=~A|~CNAME
+||edadeal.ru^$dnstype=~A|~CNAME
+#
+||ext-strm-*-*.strm.yandex.net^$important
+||strm-*-*.strm.yandex.net^$important
+||advideo.dsp.yandexadexchange.net^$important
+||yandex.metrica^$important
+||v.sber.ru^$important
+### Тест ###
+
 
 ||appsflyer.com^$dnsrewrite=NOERROR;A;0.0.0.0
 ||googletagmanager.com^$dnsrewrite=NOERROR;A;0.0.0.0
@@ -155,7 +183,6 @@
 @@||tc.mobile.yandex.net^$important
 @@||clck.ru^$important
 @@||registrator.mobile.yandex.net^$important
-# Новые
 @@||egw.ads-platform.plet.yandex.ru^$important
 @@||myadg.baselinux.net^$important
 @@||antibot.wildberries.ru^$important
@@ -200,6 +227,14 @@
 @@||check.happ.su^$important
 @@||dns.google^$important
 @@||dns.quad9.net^$important
+# Новые
+@@||stat.teleport.media^$important
+@@||habrahabr.ru^$important
+@@||deezer.com^$important
+@@||findfiles.net^$important
+@@||www.qwant.com^$important
+@@||yacy.net^$important
+@@||www.zapmeta.com^$important
 
 # ====================== AppMetrica (Яндекс) ======================
 ||analytics.mobile.yandex.net^
